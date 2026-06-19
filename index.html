@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Millî Mücadele Hazırlık Dönemi bilgilerini kartlarla eşleştiren mobil uyumlu tarih oyunu.">
+    <title>Millî Mücadele Hazırlık Dönemi · Eşini Bul</title>
+    <link rel="stylesheet" href="styles.css?v=20260619">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Millî Mücadele Hazırlık Dönemi</p>
+          <h1>Eşini Bul</h1>
+          <p class="subtitle">Genelgeler, kongreler, kararlar ve dönemin kilit olayları.</p>
+        </div>
+        <div class="deck-mark" aria-label="Kart destesi">
+          <span>152</span>
+          <small>kartlık deste</small>
+        </div>
+      </header>
+
+      <section class="game-board" aria-labelledby="definitionText">
+        <div class="game-toolbar">
+          <label for="topicSelect">
+            <span>Kart destesi</span>
+            <select id="topicSelect"></select>
+          </label>
+          <p id="deckInfo" class="deck-info"></p>
+        </div>
+
+        <div class="pair-area">
+          <article id="definitionCard" class="definition-card">
+            <p class="card-label">TANIM KARTI</p>
+            <h2 id="definitionText"></h2>
+          </article>
+
+          <div class="pair-connector" aria-hidden="true">
+            <span></span>
+          </div>
+
+          <section class="answers-section" aria-labelledby="answersTitle">
+            <div class="answers-heading">
+              <div>
+                <p class="card-label">CEVAP KARTLARI</p>
+                <h2 id="answersTitle">Eşleşen kart</h2>
+              </div>
+              <span>10 karttan biri</span>
+            </div>
+            <div id="answerGrid" class="answer-grid"></div>
+          </section>
+        </div>
+
+        <div id="feedbackPanel" class="feedback-panel" aria-live="polite" hidden>
+          <strong id="feedbackTitle"></strong>
+          <p id="feedbackText"></p>
+        </div>
+
+        <div class="game-actions">
+          <button id="anotherCardButton" class="secondary-button" type="button">Başka kart göster</button>
+          <button id="matchButton" class="primary-button" type="button" disabled>Bu ikisini eşleştir</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260619"></script>
+  </body>
+</html>
