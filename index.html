@@ -2,68 +2,116 @@
 <html lang="tr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="description" content="Millî Mücadele Hazırlık Dönemi bilgilerini kartlarla eşleştiren mobil uyumlu tarih oyunu.">
-    <title>Millî Mücadele Hazırlık Dönemi · Eşini Bul</title>
-    <link rel="stylesheet" href="styles.css?v=20260619">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milli Mücadele Hazırlık Kartları</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">Millî Mücadele Hazırlık Dönemi</p>
-          <h1>Eşini Bul</h1>
-          <p class="subtitle">Genelgeler, kongreler, kararlar ve dönemin kilit olayları.</p>
+        <div class="title-block">
+          <p class="eyebrow">KPSS Tarih</p>
+          <h1>Milli Mücadele Hazırlık Kartları</h1>
         </div>
-        <div class="deck-mark" aria-label="Kart destesi">
-          <span>152</span>
-          <small>kartlık deste</small>
+        <img class="history-mark" src="assets/history-motif.svg" alt="" aria-hidden="true">
+        <div class="scoreboard" aria-live="polite">
+          <span id="placedCount">0</span>
+          <span class="muted">/</span>
+          <span id="totalCount">0</span>
         </div>
       </header>
 
-      <section class="game-board" aria-labelledby="definitionText">
-        <div class="game-toolbar">
-          <label for="topicSelect">
-            <span>Kart destesi</span>
-            <select id="topicSelect"></select>
-          </label>
-          <p id="deckInfo" class="deck-info"></p>
-        </div>
-
-        <div class="pair-area">
-          <article id="definitionCard" class="definition-card">
-            <p class="card-label">TANIM KARTI</p>
-            <h2 id="definitionText"></h2>
-          </article>
-
-          <div class="pair-connector" aria-hidden="true">
-            <span></span>
+      <section class="control-band" aria-label="Kart kontrol alanı">
+        <div class="draw-area">
+          <div id="currentCardSlot" class="current-card-slot">
+            <p class="empty-state">Kart bekliyor</p>
           </div>
+        </div>
+        <div id="choiceBar" class="choice-bar" aria-label="Kategori seçimleri"></div>
+        <div class="actions">
+          <button id="drawButton" class="primary-button" type="button">
+            <span aria-hidden="true">+</span>
+            <span>Yeni bilgi</span>
+          </button>
+          <button id="finishButton" class="secondary-button" type="button" disabled>
+            <span aria-hidden="true">✓</span>
+            <span>Kontrol et</span>
+          </button>
+          <button id="hintToggleButton" class="hint-button" type="button" aria-expanded="false" aria-controls="hintPanel">
+            <span aria-hidden="true">?</span>
+            <span>İpucu</span>
+          </button>
+          <button id="resetButton" class="ghost-button" type="button">
+            <span aria-hidden="true">↻</span>
+            <span>Sıfırla</span>
+          </button>
+        </div>
+        <p id="statusText" class="status-text" aria-live="polite"></p>
+      </section>
 
-          <section class="answers-section" aria-labelledby="answersTitle">
-            <div class="answers-heading">
-              <div>
-                <p class="card-label">CEVAP KARTLARI</p>
-                <h2 id="answersTitle">Eşleşen kart</h2>
-              </div>
-              <span>10 karttan biri</span>
+      <section id="hintPanel" class="hint-panel" aria-label="Kart ipucu" hidden>
+        <div class="hint-header">
+          <div>
+            <p class="hint-kicker">Seçili bilgi</p>
+            <h2>Kart İpucu</h2>
+          </div>
+          <div id="selectedHint" class="selected-hint" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="columns" class="columns" aria-label="Kategori sütunları"></section>
+
+      <section id="resultsPanel" class="results-panel" aria-live="polite" hidden></section>
+
+      <section class="matching-section" aria-labelledby="matchingTitle">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow">Ek eşleştirme</p>
+            <h2 id="matchingTitle">Tanım - Cevap Eşleştirme</h2>
+          </div>
+          <div class="mini-scoreboard" aria-live="polite">
+            <span id="matchPlacedCount">0</span>
+            <span class="muted">/</span>
+            <span id="matchTotalCount">0</span>
+          </div>
+        </header>
+
+        <section class="matching-control-band" aria-label="Tanım cevap kontrol alanı">
+          <div class="actions">
+            <button id="matchCheckButton" class="secondary-button" type="button" disabled>
+              <span aria-hidden="true">✓</span>
+              <span>Kontrol et</span>
+            </button>
+            <button id="matchShuffleButton" class="ghost-button" type="button">
+              <span aria-hidden="true">↻</span>
+              <span>Karıştır</span>
+            </button>
+          </div>
+          <p id="matchStatusText" class="status-text" aria-live="polite"></p>
+        </section>
+
+        <div class="matching-board">
+          <section class="matching-panel" aria-label="Tanımlar">
+            <div class="panel-title">
+              <h3>Tanımlar</h3>
+              <span id="definitionCount" class="panel-count">0</span>
             </div>
-            <div id="answerGrid" class="answer-grid"></div>
+            <div id="definitionList" class="definition-list"></div>
+          </section>
+
+          <section class="matching-panel" aria-label="Cevaplar">
+            <div class="panel-title">
+              <h3>Cevaplar</h3>
+              <span id="answerCount" class="panel-count">0</span>
+            </div>
+            <div id="answerList" class="answer-list"></div>
           </section>
         </div>
 
-        <div id="feedbackPanel" class="feedback-panel" aria-live="polite" hidden>
-          <strong id="feedbackTitle"></strong>
-          <p id="feedbackText"></p>
-        </div>
-
-        <div class="game-actions">
-          <button id="anotherCardButton" class="secondary-button" type="button">Başka kart göster</button>
-          <button id="matchButton" class="primary-button" type="button" disabled>Bu ikisini eşleştir</button>
-        </div>
+        <section id="matchResultsPanel" class="results-panel" aria-live="polite" hidden></section>
       </section>
     </main>
 
-    <script src="app.js?v=20260619"></script>
+    <script src="app.js"></script>
   </body>
 </html>
