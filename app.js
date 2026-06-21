@@ -45,14 +45,13 @@ Erzurum Kongresi: İlk kez geçici hükûmet kurulması fikrini ortaya atan
 Erzurum Kongresi: Heyet-i Temsiliye’nin oluşturulduğu
 Erzurum Kongresi: Mustafa Kemal’in başkanlığını yaptığı
 Erzurum Kongresi: Kâzım Karabekir’in desteğiyle çalışmalarını sürdüren
-Erzurum Kongresi: Millî Mücadele’nin programı olan Amasya Genelgesi kararlarını somutlaştıran
 Sivas Kongresi: Toplanış amacı ve aldığı kararlar bakımından tamamen ulusal olan
 Sivas Kongresi: Manda ve himaye meselesinin en yoğun şekilde tartışıldığı
 Sivas Kongresi: Mustafa Kemal ile Rauf Orbay arasında başkanlık yarışının yaşandığı
 Sivas Kongresi: Erzurum Kongresi kararlarını tüm ülkeye mal eden
 Sivas Kongresi: Tüm yararlı cemiyetleri Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştiren
 Sivas Kongresi: Toplanış amacı ve aldığı kararlar bakımından tamamen ulusal olan
-Sivas Kongresi: Millî Mücadele’nin tek merkezden yürütülmesini sağlayan
+Sivas Kongresi: Millî Mücadele’nin tek merkezden(Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti) yürütülmesini sağlayan
 Sivas Kongresi: Millî Mücadele’nin sesi olarak İrade-i Milliye gazetesini çıkaran
 Sivas Kongresi: Batı Cephesi Komutanlığına Ali Fuat Cebesoy’u atayan
 Sivas Kongresi: Temsil Heyeti’nin ilk kez yürütme yetkisini kullandığı
