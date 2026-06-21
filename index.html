@@ -21,7 +21,12 @@
         </div>
       </header>
 
-      <section class="control-band" aria-label="Kart kontrol alanı">
+      <nav class="exercise-nav" aria-label="Alıştırma bölümleri">
+        <a href="#categoryExercise">Kart Yerleştirme</a>
+        <a href="#matchingExercise">Tanım - Cevap</a>
+      </nav>
+
+      <section id="categoryExercise" class="control-band" aria-label="Kart kontrol alanı">
         <div class="draw-area">
           <div id="currentCardSlot" class="current-card-slot">
             <p class="empty-state">Kart bekliyor</p>
@@ -63,7 +68,7 @@
 
       <section id="resultsPanel" class="results-panel" aria-live="polite" hidden></section>
 
-      <section class="matching-section" aria-labelledby="matchingTitle">
+      <section id="matchingExercise" class="matching-section" aria-labelledby="matchingTitle">
         <header class="section-heading">
           <div>
             <p class="eyebrow">Ek eşleştirme</p>
@@ -91,7 +96,7 @@
         </section>
 
         <div class="matching-board">
-          <section class="matching-panel" aria-label="Tanımlar">
+          <section class="matching-panel definition-panel" aria-label="Tanımlar">
             <div class="panel-title">
               <h3>Tanımlar</h3>
               <span id="definitionCount" class="panel-count">0</span>
@@ -99,7 +104,7 @@
             <div id="definitionList" class="definition-list"></div>
           </section>
 
-          <section class="matching-panel" aria-label="Cevaplar">
+          <section class="matching-panel answer-panel" aria-label="Cevaplar">
             <div class="panel-title">
               <h3>Cevaplar</h3>
               <span id="answerCount" class="panel-count">0</span>
