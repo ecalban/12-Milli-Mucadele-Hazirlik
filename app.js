@@ -364,7 +364,6 @@ function createColumn(category) {
       <span class="key-badge">${category.key}</span>
       <h2>${category.name}</h2>
     </div>
-    <span class="column-count" data-count-for="${category.id}">0</span>
   `;
 
   const zone = document.createElement("div");
@@ -527,14 +526,6 @@ function moveCard(card, zone) {
 }
 
 function updateColumnCounts() {
-  CATEGORIES.forEach((category) => {
-    const zone = document.querySelector(`.drop-zone[data-category="${category.id}"]`);
-    const count = zone ? zone.querySelectorAll(".knowledge-card").length : 0;
-    const badge = document.querySelector(`[data-count-for="${category.id}"]`);
-    if (badge) {
-      badge.textContent = String(count);
-    }
-  });
 }
 
 function renderSelectedHint() {
@@ -719,11 +710,6 @@ function createDefinitionCard(definition) {
   text.className = "definition-text";
   text.textContent = definition.definition;
   card.append(text);
-
-  const progress = document.createElement("div");
-  progress.className = "answer-progress";
-  progress.textContent = `${assignedAnswers.length} / ${expectedCount} cevap`;
-  card.append(progress);
 
   if (assignedAnswers.length > 0) {
     const assignedList = document.createElement("div");
