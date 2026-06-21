@@ -13,20 +13,15 @@ Amasya Genelgesi: Ali Fuat Cebesoy, Rauf Orbay ve Refet Bele’nin imzaladığı
 Amasya Genelgesi: Kâzım Karabekir ve Cemal Paşa’nın telgrafla onay verdiği
 Amasya Genelgesi: Millî Mücadele’nin komutanlar tarafından desteklendiğini gösteren
 Amasya Genelgesi: Millî Mücadele’yi bölgesel olmaktan çıkarıp ulusal bir harekete dönüştüren
-Amasya Genelgesi: “Vatanın bütünlüğü, milletin istiklali tehlikededir.”
-Amasya Genelgesi: Millî Mücadele’nin gerekçelerinden birini açıklayan karar
-Amasya Genelgesi: “İstanbul Hükûmeti üzerine aldığı sorumluluğu yerine getirememektedir.”
-Amasya Genelgesi: İstanbul Hükûmeti’nin görevini yerine getiremediğini ilan eden karar
-Amasya Genelgesi: “Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.”
-Amasya Genelgesi: Millî Mücadele’nin amacını ve yöntemini belirleyen, ayrıca ilk kez ulusal egemenlikten bahseden karar
+Amasya Genelgesi: “Vatanın bütünlüğü, milletin istiklali tehlikededir.” Millî Mücadele’nin gerekçelerinden birini açıklayan karar
+Amasya Genelgesi: “İstanbul Hükûmeti üzerine aldığı sorumluluğu yerine getirememektedir.” Millî Mücadele’nin gerekçelerinden birini açıklayan karar
+Amasya Genelgesi: “Milletin bağımsızlığını yine milletin azim ve kararı kurtaracaktır.” Millî Mücadele’nin amacını ve yöntemini belirleyen, ayrıca ilk kez ulusal egemenlikten bahseden karar
 Amasya Genelgesi: Erzurum Kongresi’ne delege gönderilmesini kararlaştıran
 Amasya Genelgesi: İlk kez ulusal bir kongre toplanmasını kararlaştıran
-Amasya Genelgesi: “Sivas’ta ulusal bir kongre toplanacaktır.”
-Amasya Genelgesi: Millî Mücadele’yi ulusa mal etmeyi amaçlayan karar
+Amasya Genelgesi: “Sivas’ta ulusal bir kongre toplanacaktır.” Millî Mücadele’yi ulusa mal etmeyi amaçlayan karar
 Amasya Genelgesi: “Gerekli görülen yerlerde temsilciler kimliklerini gizleyeceklerdir.”
 Amasya Genelgesi: Temsilcilerin kimliklerini gizleyebilmesini öngören karar
-Amasya Genelgesi: “İstanbul Hükûmeti görevini yapmamaya devam ederse yeni bir kurul oluşturulacaktır.”
-Amasya Genelgesi: Temsilciler Kurulu’nun (Heyet-i Temsiliye) temellerini atan karar
+Amasya Genelgesi: “İstanbul Hükûmeti görevini yapmamaya devam ederse yeni bir kurul oluşturulacaktır.”: Temsilciler Kurulu’nun (Heyet-i Temsiliye) temellerini atan karar
 Amasya Genelgesi: “İstanbul Anadolu’ya hâkim değil, tâbi olmak zorundadır.” düşüncesini ortaya koyan belge
 Amasya Genelgesi: Ali Fuat Cebesoy’un “Mukaddes İttifak” olarak nitelendirdiği belge
 Amasya Genelgesi: Millî Mücadele’nin programı olarak kabul edilen
@@ -36,20 +31,16 @@ Erzurum Kongresi: Mustafa Kemal’in askerlik mesleğinden istifa ettikten sonra
 Erzurum Kongresi: Trabzon Muhafaza-i Hukuk-ı Milliye Cemiyeti ve Vilayat-ı Şarkiye Müdafaa-i Hukuk-ı Milliye Cemiyeti, bu cemiyetlerin topladığı
 Erzurum Kongresi: Kâzım Yurdalan ve Cevat Dursunoğlu istifa eden delegeler
 Erzurum Kongresi: Kâzım Yurdalan ve Cevat Dursunoğlu  istifa etmesiyle seçilen delegeler Mustafa Kemal ve Rauf Orbay
-Erzurum Kongresi: “Ulusal güçler padişahı ve saltanat makamını düştüğü bu durumdan kurtaracaktır.”
-Erzurum Kongresi: Saltanat yanlılarını Millî Mücadele’ye çekmek amacıyla ulusal güçlerin padişahı kurtaracağını belirten karar
-Erzurum Kongresi: “Kapalı hâlde bulunan Osmanlı Mebusan Meclisi açılacak ve hükûmet bu yolla denetlenecektir.”
-Erzurum Kongresi: Damat Ferit Paşa Hükûmetini denetlemek amacıyla Osmanlı Mebusan Meclisinin açılmasını isteyen karar
-Erzurum Kongresi: “İstanbul Hükûmeti vatanı korumadığı takdirde bu gayeyi gerçekleştirmek için geçici bir hükûmet kurulacaktır.”
-Erzurum Kongresi: İlk kez Osmanlı Hükûmetinden ayrı bir hükûmet kurulması fikrini ortaya koyan karar
+Erzurum Kongresi: “Ulusal güçler padişahı ve saltanat makamını düştüğü bu durumdan kurtaracaktır.” Saltanat yanlılarını Millî Mücadele’ye çekmek amacıyla ulusal güçlerin padişahı kurtaracağını belirten karar
+Erzurum Kongresi: “Kapalı hâlde bulunan Osmanlı Mebusan Meclisi açılacak ve hükûmet bu yolla denetlenecektir.” Damat Ferit Paşa Hükûmetini denetlemek amacıyla Osmanlı Mebusan Meclisinin açılmasını isteyen karar
+Erzurum Kongresi: “İstanbul Hükûmeti vatanı korumadığı takdirde bu gayeyi gerçekleştirmek için geçici bir hükûmet kurulacaktır.”: İlk kez Osmanlı Hükûmetinden ayrı bir hükûmet kurulması fikrini ortaya koyan karar
 Erzurum Kongresi: Toplanış bakımından bölgesel, aldığı kararlar bakımından ulusal olan
 Erzurum Kongresi: İlk kez vatan sınırlarından bahseden
 Erzurum Kongresi: Misakımillî’nin temelini oluşturan “Millî sınırlar içinde vatan bir bütündür, bölünemez.” kararını alan
 Erzurum Kongresi: Osmanlı Hükûmeti dağılırsa milletin topyekûn direneceğini ilan eden
 Erzurum Kongresi: Manda ve himaye fikrini ilk kez reddeden
 Erzurum Kongresi: Tam bağımsızlık anlayışını ortaya koyan
-Erzurum Kongresi: “Kuvayımilliye’yi etkin, millî iradeyi hâkim kılmak esastır.” kararıyla ulusal egemenliği vurgulayan
-Erzurum Kongresi: Ulusal bağımsızlık ile ulusal egemenliğin birlikte gerçekleşeceğini belirten
+Erzurum Kongresi: “Kuvayımilliye’yi etkin, millî iradeyi hâkim kılmak esastır.” Ulusal bağımsızlık ile ulusal egemenliğin birlikte gerçekleşeceğini belirten
 Erzurum Kongresi: Millî Mücadele sırasında dış yardım alınabileceğini kabul eden
 Erzurum Kongresi: Azınlıklara ayrıcalık verilmesini reddeden
 Erzurum Kongresi: İlk kez geçici hükûmet kurulması fikrini ortaya atan
