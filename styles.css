@@ -577,6 +577,9 @@ button:disabled {
 }
 
 .matching-panel {
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
   border: 1px solid var(--line);
   border-radius: 8px;
   overflow: hidden;
@@ -616,10 +619,33 @@ button:disabled {
 .answer-list {
   display: grid;
   gap: 9px;
+  max-height: clamp(360px, 62vh, 700px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 12px;
   background:
     linear-gradient(180deg, rgba(24, 33, 47, 0.03), transparent 120px),
     #fbfcff;
+  scrollbar-color: #8795a8 #eef2f7;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+}
+
+.definition-list::-webkit-scrollbar,
+.answer-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.definition-list::-webkit-scrollbar-track,
+.answer-list::-webkit-scrollbar-track {
+  background: #eef2f7;
+}
+
+.definition-list::-webkit-scrollbar-thumb,
+.answer-list::-webkit-scrollbar-thumb {
+  border: 2px solid #eef2f7;
+  border-radius: 999px;
+  background: #8795a8;
 }
 
 .definition-list {
@@ -982,16 +1008,14 @@ button:disabled {
   .definition-list,
   .answer-list {
     grid-template-columns: 1fr;
+    max-height: min(460px, 52vh);
     padding: 10px;
   }
 
   .answer-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-height: min(260px, 34vh);
-    overflow-y: auto;
-    overscroll-behavior: contain;
     gap: 7px;
-    scrollbar-gutter: stable;
   }
 
   .definition-card {
