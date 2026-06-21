@@ -210,7 +210,6 @@ Millî Mücadele’nin son kongresi: Pozantı
 Mondros Ateşkes Antlaşması imzalandığında Suriye-Filistin Cephesi’nde görev yapan komutan: Mustafa Kemal (Yıldırım Orduları Grup Komutanı)
 Ateşkesten sonra İstanbul’a dönen Mustafa Kemal’in İstanbul’a geliş tarihi: 13 Kasım 1918
 İstanbul’u işgal eden İtilaf donanmasını görünce “Geldikleri gibi giderler.” sözünü söyleyen kişi: Mustafa Kemal
-Mustafa Kemal’in Ali Fethi Okyar ile birlikte çıkardığı gazete: Minber Gazetesi
 Mustafa Kemal’in Samsun’a gönderildiği görev: 9. Ordu Müfettişliği (3. Ordu Müfettişliği)
 Mustafa Kemal’in Samsun’a gönderiliş amacı: Bölgede asayişi sağlamak ve güvenlik sorunlarını araştırmak
 Samsunda dağınık haldeki silah ve cephaneyi toplamakla görevlendirilen kişi: Mustafa Kemal
