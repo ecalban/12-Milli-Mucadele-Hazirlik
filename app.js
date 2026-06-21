@@ -21,7 +21,7 @@ Amasya Genelgesi: İlk kez ulusal bir kongre toplanmasını kararlaştıran
 Amasya Genelgesi: “Sivas’ta ulusal bir kongre toplanacaktır.” Millî Mücadele’yi ulusa mal etmeyi amaçlayan karar
 Amasya Genelgesi: “Gerekli görülen yerlerde temsilciler kimliklerini gizleyeceklerdir.”
 Amasya Genelgesi: Temsilcilerin kimliklerini gizleyebilmesini öngören karar
-Amasya Genelgesi: “İstanbul Hükûmeti görevini yapmamaya devam ederse yeni bir kurul oluşturulacaktır.”: Temsilciler Kurulu’nun (Heyet-i Temsiliye) temellerini atan karar
+Amasya Genelgesi: “İstanbul Hükûmeti görevini yapmamaya devam ederse yeni bir kurul oluşturulacaktır.” Temsilciler Kurulu’nun (Heyet-i Temsiliye) temellerini atan karar
 Amasya Genelgesi: “İstanbul Anadolu’ya hâkim değil, tâbi olmak zorundadır.” düşüncesini ortaya koyan belge
 Amasya Genelgesi: Ali Fuat Cebesoy’un “Mukaddes İttifak” olarak nitelendirdiği belge
 Amasya Genelgesi: Millî Mücadele’nin programı olarak kabul edilen
